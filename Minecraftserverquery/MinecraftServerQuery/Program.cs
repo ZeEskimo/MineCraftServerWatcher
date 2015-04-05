@@ -10,6 +10,8 @@ namespace WindowsFormsApplication1
     static class Program
     {
         static NotifyIcon warning;
+        static IPAddress ip;
+        static int port;
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
@@ -17,6 +19,11 @@ namespace WindowsFormsApplication1
         
         static void Main()
         {
+            string conf = System.IO.File.ReadAllText("ipconf.ini");
+            char[] delimiters = new char[]{'\r', '\n'};
+            string[] vals = conf.Split(delimiters, StringSplitOptions.RemoveEmptyEntries);
+            ip = IPAddress.Parse(vals[0]);
+            port = int.Parse(vals[1]);
             warning = new NotifyIcon();
             warning.Icon = Properties.Resources.icon;
             warning.Visible = true;
@@ -58,7 +65,7 @@ namespace WindowsFormsApplication1
 
         static void tmr_Tick(object sender, EventArgs e)
         {
-            bool status = CheckServer(IPAddress.Parse("119.252.189.49"), 26151);
+            bool status = CheckServer(ip, port);
             if (!status)
             {
                 warning.BalloonTipIcon = ToolTipIcon.Warning;
