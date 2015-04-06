@@ -9,3 +9,11 @@ D:\Documents\GitHub\MineCraftWatcher\Minecraftserverquery\MinecraftServerQuery\b
 D:\Documents\GitHub\MineCraftWatcher\Minecraftserverquery\MinecraftServerQuery\obj\Debug\MineCraftServerChecker.csprojResolveAssemblyReference.cache
 D:\Documents\GitHub\MineCraftWatcher\Minecraftserverquery\MinecraftServerQuery\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
 D:\Documents\GitHub\MineCraftWatcher\Minecraftserverquery\MinecraftServerQuery\obj\Debug\MineCraftServerChecker.csproj.GenerateResource.Cache
+G:\My Documents\GitHub\MineCraftServerWatcher\Minecraftserverquery\MinecraftServerQuery\bin\Debug\WindowsFormsApplication1.exe.config
+G:\My Documents\GitHub\MineCraftServerWatcher\Minecraftserverquery\MinecraftServerQuery\obj\Debug\WindowsFormsApplication1.exe
+G:\My Documents\GitHub\MineCraftServerWatcher\Minecraftserverquery\MinecraftServerQuery\obj\Debug\WindowsFormsApplication1.pdb
+G:\My Documents\GitHub\MineCraftServerWatcher\Minecraftserverquery\MinecraftServerQuery\bin\Debug\WindowsFormsApplication1.exe
+G:\My Documents\GitHub\MineCraftServerWatcher\Minecraftserverquery\MinecraftServerQuery\bin\Debug\WindowsFormsApplication1.pdb
+G:\My Documents\GitHub\MineCraftServerWatcher\Minecraftserverquery\MinecraftServerQuery\obj\Debug\MineCraftServerChecker.csprojResolveAssemblyReference.cache
+G:\My Documents\GitHub\MineCraftServerWatcher\Minecraftserverquery\MinecraftServerQuery\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+G:\My Documents\GitHub\MineCraftServerWatcher\Minecraftserverquery\MinecraftServerQuery\obj\Debug\MineCraftServerChecker.csproj.GenerateResource.Cache

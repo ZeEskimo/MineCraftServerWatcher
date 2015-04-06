@@ -55,7 +55,7 @@ namespace WindowsFormsApplication1
 
         static void m2_Click(object sender, EventArgs e)
         {
-            tmr_Tick(null, null);
+            tmr_Tick((object)"true", null);
         }
 
         static void m1_Click(object sender, EventArgs e)
@@ -70,6 +70,13 @@ namespace WindowsFormsApplication1
             {
                 warning.BalloonTipIcon = ToolTipIcon.Warning;
                 warning.BalloonTipText = "Warning: Stipe server is down!";
+                warning.BalloonTipTitle = "StipeStatus";
+                warning.ShowBalloonTip(10000);
+            }
+            else if(status && sender == "true")
+            {
+                warning.BalloonTipIcon = ToolTipIcon.Info;
+                warning.BalloonTipText = "Stipe server is up!";
                 warning.BalloonTipTitle = "StipeStatus";
                 warning.ShowBalloonTip(10000);
             }
